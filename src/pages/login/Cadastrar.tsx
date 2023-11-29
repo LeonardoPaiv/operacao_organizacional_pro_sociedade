@@ -12,10 +12,10 @@ const Cadastrar = () => {
         Prepare-se para manter o mundo em moviment! Faça login para cuidar dos
         espaços públicos conosco
       </p>
-      <TextField margin="dense" id="outlined-basic" label="CPF" fullWidth variant="outlined" />
-      <TextField margin="dense" id="outlined-basic" label="E-mail" type="email" fullWidth variant="outlined" />
-      <TextField margin="dense" id="outlined-basic" label="Senha" type="password" fullWidth variant="outlined" />
-      <TextField margin="dense" id="outlined-basic" label="Confirmar Senha" type="password" fullWidth variant="outlined" />
+      <TextField margin="dense" id="outlined-basic" label="CPF" fullWidth variant="standard" />
+      <TextField margin="dense" id="outlined-basic" label="E-mail" type="email" fullWidth variant="standard" />
+      <TextField margin="dense" id="outlined-basic" label="Senha" type="password" fullWidth variant="standard" />
+      <TextField margin="dense" id="outlined-basic" label="Confirmar Senha" type="password" fullWidth variant="standard" />
       <FormGroup>
       <FormControlLabel control={<Checkbox />} label="Conta admin" />
       </FormGroup>

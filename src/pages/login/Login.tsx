@@ -10,8 +10,8 @@ const Login = () => {
         Prepare-se para manter o mundo em moviment! Faça login para cuidar dos
         espaços públicos conosco
       </p>
-      <TextField margin="dense" id="outlined-basic" label="CPF" fullWidth variant="outlined" />
-      <TextField margin="dense" id="outlined-basic" label="Senha" type="password" fullWidth variant="outlined" />
+      <TextField margin="dense" id="outlined-basic" label="CPF" fullWidth variant="standard" />
+      <TextField margin="dense" id="outlined-basic" label="Senha" type="password" fullWidth variant="standard" />
       <Button variant="contained" color="warning" fullWidth aria-label="login">
         <LoginIcon />
       </Button>
