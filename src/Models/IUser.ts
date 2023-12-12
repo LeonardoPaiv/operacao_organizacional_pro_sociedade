@@ -5,5 +5,5 @@ export interface IUser {
     email: string;
     senha: string;
     senha_confirmada: string;
-    tipo: number
+    tipo: string
 }
